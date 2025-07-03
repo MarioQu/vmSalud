@@ -1,0 +1,113 @@
+/* *************** Fonts *************** */
+@font-face{
+    font-family: "GothamProLight";
+    src: url("../fonts/gothampro_light.ttf");
+}
+@font-face{
+    font-family: "GothamPro";
+    src: url("../fonts/gothampro.ttf");
+}
+@font-face{
+    font-family: "GothamProMedium";
+    src: url("../fonts/gotham_medium.TTF");
+}
+@font-face{
+    font-family: "GothamProBold";
+    src: url("../fonts/gothampro_bold.ttf");
+}
+@font-face{
+    font-family: "GothamProBlack";
+    src: url("../fonts/gothampro_black.ttf");
+}
+
+/* *************** Colores *************** */
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --green1: #0C4B4F;
+    --green2: #247F84;
+    --green3: #79BA57;
+    --green4: #53B4BA;
+    --green5: #F1FEFF;
+    --green6: #BDE1E3;
+    --dark1: #1E1F1F;
+}
+
+/* *************** Globales *************** */
+body{
+    font-family: "GothamPro";
+}
+.border{
+    border: 1px dashed #00ffff !important;
+}
+.border2{
+    border: 1px dashed #ff0000 !important;
+}
+a{
+    text-decoration: none !important; 
+}
+
+
+/* *************** Fonts *************** */
+.f-size12{
+    font-size: 12px;
+}
+.f-size14{
+    font-size: 14px;
+}
+.f-size16{
+    font-size: 16px;
+}
+.f-size18{
+    font-size: 18px;
+}
+.f-size24{
+    font-size: 24px;
+}
+.f-size45{
+    font-size: 45px;
+}
+.f-size80{
+    font-size: 80px;
+}
+
+.f-white{
+    color: var(--white);
+}
+.f-green1{
+    color: var(--green1);
+}
+
+
+/* *************** Navbar *************** */
+.top-navbar{
+    background-color: var(--green1);
+}
+.top-navbar ul{
+    list-style: none;
+}.top-navbar ul li a{
+    display: flex;
+    align-items: center;
+    color: var(--white);
+}.top-navbar ul li a:hover{
+    color: var(--green3);
+}
+.top-navbar ul li a img{
+    width: 20px;
+    margin-right: 5px;
+}
+.navbar{
+    background-color: var(--white) !important;
+    height: 80px;
+}
+.navbar-nav li a{
+    font-family: "GothamProMedium";
+    font-size: 14px;
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.navbar-nav li a:hover{
+    box-shadow: 0px 3px 0px 0px var(--green3);
+}
