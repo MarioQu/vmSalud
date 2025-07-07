@@ -67,6 +67,7 @@ a{
     background-color: var(--black);
     color: var(--green4);
 }
+.rounded-img{ border-radius: 50%; }
 
 /* *************** Fonts *************** */
 .f-size12{
@@ -102,6 +103,9 @@ a{
 }
 .f-green1{
     color: var(--green1);
+}
+.f-green4{
+    color: var(--green4);
 }
 
 
@@ -161,8 +165,96 @@ a{
     background-image: url("../images/greenline1.png");
     background-repeat: no-repeat;
     background-size: 100% 70px;
-    background-position: bottom center;
+    background-position: bottom 10px center;
 }
 #nuestros_servicios .tit-serv{
     height: 50px;
+}
+
+
+
+/* *************** Análisis clínicos *************** */
+#analisis_clinicos{
+    background-color: var(--green2);
+}
+
+
+/* *************** Beneficios *************** */
+#beneficios .backline{
+    background-image: url("../images/greenline2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 70px;
+    background-position: bottom 10px center;
+}
+
+#beneficios #CarBeneficios .carousel-item{
+    height: 420px;
+    border: 2px dashed steelblue;
+}
+#CarBeneficios .carousel-control-prev-icon {
+    background-image: url("../images/arrow-left.png");
+}button.carousel-control-prev {
+    left: -120px;
+}
+#CarBeneficios .carousel-control-next-icon {
+    background-image: url("../images/arrow-right.png");
+}button.carousel-control-next {
+    right: -120px;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    filter: var(--bs-carousel-control-icon-filter);
+    border: 0;
+    opacity: 1 !important;
+    transition: opacity .15s ease;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #E7E7E7;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 1;
+    transition: opacity .6s ease;
+}
+
+.carousel-indicators .active {
+    background-color: var(--green4);
+    width: 100px;
+    border-radius: 15px !important;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -65px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
 }
