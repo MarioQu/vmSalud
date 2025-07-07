@@ -1,4 +1,6 @@
-/* *************** Fonts *************** */
+/* ****************************** 
+            Fonts 
+****************************** */
 @font-face{
     font-family: "GothamProLight";
     src: url("../fonts/gothampro_light.ttf");
@@ -20,20 +22,25 @@
     src: url("../fonts/gothampro_black.ttf");
 }
 
-/* *************** Colores *************** */
+/* ****************************** 
+            Colores 
+****************************** */
 :root{
-    --white: #ffffff;
-    --black: #000000;
-    --green1: #0C4B4F;
-    --green2: #247F84;
-    --green3: #79BA57;
-    --green4: #53B4BA;
-    --green5: #F1FEFF;
-    --green6: #BDE1E3;
-    --dark1: #1E1F1F;
+    --white:        #ffffff;
+    --black:        #000000;
+    --green1:       #0C4B4F;
+    --green2:       #247F84;
+    --green3:       #79BA57;
+    --green4:       #53B4BA;
+    --green5:       #F1FEFF;
+    --green6:       #BDE1E3;
+    --dark1:        #1E1F1F;
 }
 
-/* *************** Globales *************** */
+
+/* ****************************** 
+            Globales 
+****************************** */
 body{
     font-family: "GothamPro";
 }
@@ -67,9 +74,26 @@ a{
     background-color: var(--black);
     color: var(--green4);
 }
-.rounded-img{ border-radius: 50%; }
+.rounded-img{ 
+    border-radius: 50%; 
+}
+.tit-backline1{
+    background-image: url("../images/greenline1.png");
+    background-position: bottom 10px center;
+    background-repeat: no-repeat;
+    background-size: 100% 70px;
+}
+.tit-backline2{
+    background-image: url("../images/greenline2.png");
+    background-position: bottom 10px center;
+    background-repeat: no-repeat;
+    background-size: 100% 70px;
+}
 
-/* *************** Fonts *************** */
+
+/* ****************************** 
+            Fonts 
+****************************** */
 .f-size12{
     font-size: 12px;
 }
@@ -95,11 +119,11 @@ a{
 .f-black{
     color: var(--black);
 }
-.f-dark1{
-    color: var(--dark1);
-}
 .f-white{
     color: var(--white);
+}
+.f-dark1{
+    color: var(--dark1);
 }
 .f-green1{
     color: var(--green1);
@@ -108,12 +132,14 @@ a{
     color: var(--green4);
 }
 
-
 .titles1{
     font-family: "GothamProBold";
 }
 
-/* *************** Navbar *************** */
+
+/* ****************************** 
+            Navbar 
+****************************** */
 .top-navbar{
     background-color: var(--green1);
 }
@@ -147,7 +173,9 @@ a{
 }
 
 
-/* *************** Pilares *************** */
+/* ****************************** 
+            Pilares 
+****************************** */
 .card.pilares{
     border: 1px solid #BDE1E3 !important;
     background-color: #F1FEFF !important;
@@ -157,104 +185,119 @@ a{
 }
 
 
-/* *************** Nuestros servicios *************** */
+/* ****************************** 
+        Nuestros servicios 
+****************************** */
 #nuestros_servicios{
     background-color: var(--green1);
-}
-#nuestros_servicios .backline{
-    background-image: url("../images/greenline1.png");
-    background-repeat: no-repeat;
-    background-size: 100% 70px;
-    background-position: bottom 10px center;
 }
 #nuestros_servicios .tit-serv{
     height: 50px;
 }
 
 
-
-/* *************** Análisis clínicos *************** */
+/* ****************************** 
+        Análisis clínicos 
+****************************** */
 #analisis_clinicos{
     background-color: var(--green2);
 }
 
 
-/* *************** Beneficios *************** */
-#beneficios .backline{
-    background-image: url("../images/greenline2.png");
-    background-repeat: no-repeat;
-    background-size: 100% 70px;
-    background-position: bottom 10px center;
-}
-
+/* ****************************** 
+            Beneficios 
+****************************** */
 #beneficios #CarBeneficios .carousel-item{
     height: 420px;
-    border: 2px dashed steelblue;
 }
 #CarBeneficios .carousel-control-prev-icon {
     background-image: url("../images/arrow-left.png");
-}button.carousel-control-prev {
+}
+#CarBeneficios button.carousel-control-prev {
     left: -120px;
 }
 #CarBeneficios .carousel-control-next-icon {
     background-image: url("../images/arrow-right.png");
-}button.carousel-control-next {
+}
+#CarBeneficios button.carousel-control-next {
     right: -120px;
 }
-.carousel-control-next, .carousel-control-prev {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
+#CarBeneficios .carousel-control-next, 
+#CarBeneficios .carousel-control-prev {
+    opacity: 1 !important;
+}
+#CarBeneficios  .carousel-indicators [data-bs-target] {
+    transition: opacity .6s ease;
+    background-color: #E7E7E7;
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;
+    opacity: 1;
+}
+#CarBeneficios .carousel-indicators .active {
+    background-color: var(--green4);
+    border-radius: 15px !important;
+    width: 100px;
+}
+#CarBeneficios .carousel-indicators {
+    justify-content: flex-start;
+    margin-left: 0;
+    bottom: -65px;
+    padding: 0;
+}
+
+
+/* ****************************** 
+            Footer
+****************************** */
+footer{
+    background: var(--green2);
+}
+.list-footer,
+.list-social,
+.list-legales{
+    list-style-type: none;
+}
+.list-footer li a{
+    list-style-type: none;
+    color: var(--white);
+    font-size: 12px;
+}
+.list-footer li a:hover{
+    color: var(--green1);
+}
+.list-footer li a img{
+    width: 20px;
+}
+.list-social li a{
+    background-color: var(--green1);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15%;
-    padding: 0;
-    color: #fff;
-    text-align: center;
-    background: 0 0;
-    filter: var(--bs-carousel-control-icon-filter);
-    border: 0;
-    opacity: 1 !important;
-    transition: opacity .15s ease;
 }
-
-.carousel-indicators [data-bs-target] {
-    box-sizing: content-box;
-    flex: 0 1 auto;
-    width: 13px;
-    height: 13px;
-    border-radius: 50%;
-    padding: 0;
-    margin-right: 3px;
-    margin-left: 3px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: #E7E7E7;
-    background-clip: padding-box;
-    border: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    opacity: 1;
-    transition: opacity .6s ease;
-}
-
-.carousel-indicators .active {
+.list-social li a:hover{
     background-color: var(--green4);
-    width: 100px;
-    border-radius: 15px !important;
 }
-.carousel-indicators {
-    position: absolute;
-    right: 0;
-    bottom: -65px;
-    left: 0;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin-right: 15%;
-    margin-bottom: 1rem;
-    margin-left: 15%;
+.list-social li a img{
+    width: 30px;
+}
+
+footer .copyright{
+    background-color: var(--green1);
+}
+.list-legales li a{
+    list-style-type: none;
+    color: var(--white);
+    font-size: 14px;
+}
+.list-legales li a:hover{
+    color: var(--green2);
+}
+.list-legales li:first-child::after{
+    content: " | ";
+    margin: 0 20px;
+    color: var(--white);
 }
