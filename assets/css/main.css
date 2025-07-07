@@ -46,7 +46,27 @@ body{
 a{
     text-decoration: none !important; 
 }
-
+.custom-btn{
+    font-family: "GothamProBold";
+    background-color: var(--green1);
+    border: 1px solid var(--green1) !important;
+    color: var(--white);
+    border-radius: 4px;
+}.custom-btn:hover{
+    background-color: var(--white);
+    color: var(--green1);
+}
+.custom-btn2{
+    font-family: "GothamProBold";
+    background-color: var(--green4);
+    border: 1px solid var(--green4) !important;
+    color: var(--black);
+    border-radius: 4px;
+}.custom-btn2:hover{
+    border: 1px solid var(--black) !important;
+    background-color: var(--black);
+    color: var(--green4);
+}
 
 /* *************** Fonts *************** */
 .f-size12{
@@ -71,6 +91,12 @@ a{
     font-size: 80px;
 }
 
+.f-black{
+    color: var(--black);
+}
+.f-dark1{
+    color: var(--dark1);
+}
 .f-white{
     color: var(--white);
 }
@@ -78,6 +104,10 @@ a{
     color: var(--green1);
 }
 
+
+.titles1{
+    font-family: "GothamProBold";
+}
 
 /* *************** Navbar *************** */
 .top-navbar{
@@ -110,4 +140,29 @@ a{
 }
 .navbar-nav li a:hover{
     box-shadow: 0px 3px 0px 0px var(--green3);
+}
+
+
+/* *************** Pilares *************** */
+.card.pilares{
+    border: 1px solid #BDE1E3 !important;
+    background-color: #F1FEFF !important;
+}
+.card.pilares span{
+    font-family: "GothamProLight";
+}
+
+
+/* *************** Nuestros servicios *************** */
+#nuestros_servicios{
+    background-color: var(--green1);
+}
+#nuestros_servicios .backline{
+    background-image: url("../images/greenline1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 70px;
+    background-position: bottom center;
+}
+#nuestros_servicios .tit-serv{
+    height: 50px;
 }

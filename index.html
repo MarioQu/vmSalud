@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>VM Salud - Laboratorio</title>
+		<link rel="icon" href="assets/images/favicon.png">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/main.css">
     </head>
@@ -14,7 +15,7 @@
 		<div class="container-fluid top-navbar py-2">
 			<div class="container-lg">
 				<div class="row">
-					<div class="co-12 col-sm-12 col-md-12 col-lg-6 text-center text-lg-left">
+					<div class="co-12 col-sm-12 col-md-12 col-lg-6 text-center text-lg-start">
 						<span class="f-white f-size14">Bienvenido a VM Salud Laboratorios</span>
 					</div>
 					<div class="col-12 col-sm-12 col-md-12 col-lg-6">
@@ -44,7 +45,7 @@
 		<nav class="navbar navbar-expand-lg bg-body-tertiary">
 			<div class="container-lg py-0 h-100" style="position: relative;">
 				<a class="navbar-brand" href="#">
-					<img src="assets/images/vm-salud.png" alt="VM Salud" class="img-fluid w-75">
+					<img src="assets/images/vm-salud.png" alt="VM Salud" class="img-fluid w-25">
 				</a>
 				
 				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -75,7 +76,259 @@
 			</div>
 		</nav>
 
-        
+		
+		<!-- Carrusel -->
+        <section class="container-fluid p-0">
+			<div id="carouselExample" class="carousel slide">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="assets/images/slide1.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="assets/images/slide1.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="assets/images/slide1.png" class="d-block w-100" alt="...">
+					</div>
+				</div>
+				
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>				
+		</section>
+		
+		
+		<!-- Quienes somos -->
+		<section class="container-fluid mt-5">
+			<div class="container-lg border">
+				<div class="row d-flex align-items-center">
+					<div class="col-lg-6 border text-center">
+						<img src="assets/images/quienes-somos.svg" alt="VM Salud" class="img-fluid w-100">
+					</div>
+					<div class="col-lg-6 border px-3">
+						<img src="assets/images/vm-salud.png" class="w-25" alt="">
+						<h1 class="f-size24 f-black titles1 my-4">¿Quiénes somos?</h1>
+						
+						<p class="f-dark1 f-size14">
+							VM Salud es una empresa 100% mexicana dedicada a la salud ocupacional. Ofrecemos soluciones integrales para empresas del sector público y privado mediante servicios médicos especializados, evaluaciones clínicas y auxiliares de diagnóstico.
+						</p>
+						<p class="f-dark1 f-size14">
+							Contamos con tecnología de última generación y cobertura a nivel nacional, lo que nos permite garantizar eficiencia, cumplimiento normativo y bienestar para los colaboradores de nuestros clientes.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<!-- Misión y Visión -->
+		<section class="container-fluid my-5">
+			<div class="container-lg border">
+				<div class="row">
+					<div class="col-lg-7 border">
+						<div class="row d-flex align-items-center mb-4">
+							<div class="col-4 border">
+								<img src="assets/images/mision.svg" class="img-fluid" alt="">
+							</div>
+							<div class="col-7 border">
+								<h2 class="f-black f-size24 text-start titles1">Misión</h2>
+								<p class="f-dark1 f-size14">
+									En VM Salud nuestra misión es ofrecer soluciones eficientes, precisas y oportunas en diagnósticos clínicos a cualquier persona u organización que lo solicite.
+								</p>
+							</div>
+						</div><!-- row -->
+						
+						<div class="row d-flex align-items-center">
+							<div class="col-4 border">
+								<img src="assets/images/vision.svg" class="img-fluid" alt="">
+							</div>
+							<div class="col-7 border">
+								<h2 class="f-black f-size24 text-start titles1">Visión</h2>
+								<p class="f-dark1 f-size14">
+									Posicionarnos como un laboratorio líder, enfocado en atender las demandas analíticas de las empresas con excelencia y confiabilidad, destacando por nuestra atención y servicio personalizado junto a rigurosos sistemas de control y calidad, garantizando resultados precisos y respaldando la confianza de nuestros clientes corporativos.
+								</p>
+							</div>
+						</div><!-- row -->
+					</div>
+					
+					<div class="col-lg-5 border ps-5">
+						<div class="card pilares">
+							<div class="card-body">
+								<h3 class="f-black titles1 f-size24 mb-4">Nuestros Pilares</h3>
+								
+								<div class="f-size14 f-dark1 d-flex align-items-center mb-4">
+									<img src="assets/images/examenes.svg" class="img-fluid" alt="">
+									<div class="ps-3">
+										<h3 class="titles1 f-size14 mb-0">Exámenes</h3>
+										<span class="">Check UPS & Rutinas</span>
+									</div>
+								</div><!---->
+								
+								<div class="f-size14 f-dark1 d-flex align-items-center mb-4">
+									<img src="assets/images/laboratorio.svg" class="img-fluid" alt="">
+									<div class="ps-3">
+										<h3 class="titles1 f-size14 mb-0">Laboratorio</h3>
+										<span class="">Análisis clínico</span>
+									</div>
+								</div><!---->
+								
+								<div class="f-size14 f-dark1 d-flex align-items-center mb-4">
+									<img src="assets/images/equipo-medico.svg" class="img-fluid" alt="">
+									<div class="ps-3">
+										<h3 class="titles1 f-size14 mb-0">Equipo médico</h3>
+										<span class="">Equipo de última generación</span>
+									</div>
+								</div><!---->
+								
+								<div class="f-size14 f-dark1 d-flex align-items-center mb-4">
+									<img src="assets/images/vehiculos.svg" class="img-fluid" alt="">
+									<div class="ps-3">
+										<h3 class="titles1 f-size14 mb-0">Vehículos</h3>
+										<span class="">Unidades Médicas Móviles</span>
+									</div>
+								</div><!---->
+								
+								<div class="f-size14 f-dark1 d-flex align-items-center mb-4">
+									<img src="assets/images/salud.svg" class="img-fluid" alt="">
+									<div class="ps-3">
+										<h3 class="titles1 f-size14 mb-0">Salud</h3>
+										<span class="">Campañas de salud</span>
+									</div>
+								</div><!---->
+								
+								<div class="f-size14 f-dark1 d-flex align-items-center mb-4">
+									<img src="assets/images/capital-humano.svg" class="img-fluid" alt="">
+									<div class="ps-3">
+										<h3 class="titles1 f-size14 mb-0">Capital Humano</h3>
+										<span class="">Personal altamente calificado</span>
+									</div>
+								</div><!---->
+							</div>
+						  </div>
+					</div>
+					
+					<div class="col-12 border text-center pt-3">
+						<a href="contacto" class="btn custom-btn">Agendar una cita</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<!-- Nuestros servicios -->
+		<section class="container-fluid my-5 py-5" id="nuestros_servicios">
+			<div class="container-lg border">
+				<h2 class="text-center border f-size80 f-white titles1 backline">Nuestros servicios</h2>
+				
+				<div class="row my-5">
+					<div class="col-12 border">
+						<span class="f-white f-size24 titles1">Exámenes Clínicos</span>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-3 border f-white text-center mb-3">
+						<img src="assets/images/servicios/audiometria.svg" class="img-fluid mb-3" alt="Audiometría">
+						<h3 class="f-size18 titles1 text-center tit-serv">AUDIOMETRÍA</h3>
+						<p class="f-size14">
+							La audiometría es una prueba que evalúa la capacidad auditiva, detectando posibles pérdidas de audición y su gravedad. Es clave en salud ocupacional para prevenir daños por exposición al ruido.
+						</p>
+					</div><!---->
+					
+					<div class="col-lg-3 border f-white text-center mb-3">
+						<img src="assets/images/servicios/electro.svg" class="img-fluid mb-3" alt="Electrocardiograma">
+						<h3 class="f-size18 titles1 text-center tit-serv">ELECTROCARDIOGRAMA ESTÁTICO Y DINÁMICO</h3>
+						<p class="f-size14">
+							El electrocardiograma es un estudio que registra la actividad eléctrica del corazón. Permite detectar alteraciones en el ritmo cardíaco, la conducción eléctrica y posibles signos de enfermedades cardíacas.
+						</p>
+					</div><!---->
+					
+					<div class="col-lg-3 border f-white text-center mb-3">
+						<img src="assets/images/servicios/holter.svg" class="img-fluid mb-3" alt="HOLTER 24 HORAS">
+						<h3 class="f-size18 titles1 text-center tit-serv">HOLTER 24 HORAS</h3>
+						<p class="f-size14">
+							El Holter es un estudio que registra la actividad eléctrica del corazón durante 24 horas de forma continua. Sirve para detectar alteraciones del ritmo cardíaco que no se identifican en un electrocardiograma convencional.
+						</p>
+					</div><!---->
+					
+					<div class="col-lg-3 border f-white text-center mb-3">
+						<img src="assets/images/servicios/rayos-x.svg" class="img-fluid mb-3" alt="RAYOS X DIGITAL">
+						<h3 class="f-size18 titles1 text-center tit-serv">RAYOS X DIGITAL</h3>
+						<p class="f-size14">
+							Los Rayos X digitales son un estudio de imagen que permite visualizar estructuras internas del cuerpo, como huesos y órganos, de forma rápida y precisa. Utilizan tecnología digital que mejora la calidad de la imagen y reduce la exposición a la radiación.
+						</p>
+					</div><!---->
+					
+					<div class="col-lg-3 border f-white text-center mb-3">
+						<img src="assets/images/servicios/bioimpedancia.svg" class="img-fluid mb-3" alt="BIOIMPEDANCIA CORPORAL">
+						<h3 class="f-size18 titles1 text-center tit-serv">BIOIMPEDANCIA CORPORAL</h3>
+						<p class="f-size14">
+							La bioimpedancia corporal es una prueba que analiza la composición del cuerpo, midiendo porcentajes de grasa, músculo, agua y masa ósea. Es rápida, no invasiva y útil para evaluar el estado nutricional y físico de una persona.
+						</p>
+					</div><!---->
+					
+					<div class="col-lg-3 border f-white text-center mb-3">
+						<img src="assets/images/servicios/visual.svg" class="img-fluid mb-3" alt="ESTUDIO VISUAL">
+						<h3 class="f-size18 titles1 text-center tit-serv">ESTUDIO VISUAL</h3>
+						<p class="f-size14">
+							El estudio visual evalúa la agudeza y salud visual para detectar problemas como miopía, hipermetropía, astigmatismo o fatiga ocular. Es fundamental en salud ocupacional para prevenir riesgos laborales relacionados con la visión.
+						</p>
+					</div><!---->
+					
+					<div class="col-lg-3 border f-white text-center mb-3">
+						<img src="assets/images/servicios/mastografia.svg" class="img-fluid mb-3" alt="MASTOGRAFÍA DIGITAL">
+						<h3 class="f-size18 titles1 text-center tit-serv">MASTOGRAFÍA DIGITAL</h3>
+						<p class="f-size14">
+							La mastografía digital es un estudio de imagen que permite detectar de forma temprana anomalías en el tejido mamario, como quistes o tumores. Utiliza baja radiación y ofrece mayor precisión en la interpretación.
+						</p>
+					</div><!---->
+					
+					<div class="col-lg-3 border f-white text-center mb-3">
+						<img src="assets/images/servicios/femenina.svg" class="img-fluid mb-3" alt="SALUD FEMENINA">
+						<h3 class="f-size18 titles1 text-center tit-serv">SALUD FEMENINA</h3>
+						<p class="f-size14">
+							La salud femenina abarca la prevención, diagnóstico y cuidado integral de aspectos relacionados con el bienestar de la mujer, incluyendo salud reproductiva, hormonal, mamaria y ginecológica. Su atención oportuna es clave para una vida saludable.
+						</p>
+					</div><!---->
+					
+					<div class="col-lg-3 border f-white text-center mb-3">
+						<img src="assets/images/servicios/densitometria.svg" class="img-fluid mb-3" alt="DENSITOMETRÍA">
+						<h3 class="f-size18 titles1 text-center tit-serv">DENSITOMETRÍA</h3>
+						<p class="f-size14">
+							La densitometría es un estudio que mide la densidad mineral ósea para detectar osteoporosis o riesgo de fracturas. Es rápido, no invasivo y fundamental en la prevención de enfermedades óseas.
+						</p>
+					</div><!---->
+					
+					<div class="col-lg-3 border f-white text-center mb-3">
+						<img src="assets/images/servicios/espirometria.svg" class="img-fluid mb-3" alt="ESPIROMETRÍA">
+						<h3 class="f-size18 titles1 text-center tit-serv">ESPIROMETRÍA</h3>
+						<p class="f-size14">
+							La espirometría es una prueba que evalúa la función pulmonar midiendo la cantidad y velocidad del aire inhalado y exhalado. Es útil para detectar enfermedades respiratorias como asma, EPOC o afecciones laborales.
+						</p>
+					</div><!---->
+					
+					<div class="col-lg-3 border f-white text-center mb-3">
+						<img src="assets/images/servicios/esfuerzo.svg" class="img-fluid mb-3" alt="PRUEBA DE ESFUERZO">
+						<h3 class="f-size18 titles1 text-center tit-serv">PRUEBA DE ESFUERZO</h3>
+						<p class="f-size14">
+							La prueba de esfuerzo evalúa el funcionamiento del corazón durante la actividad física. Permite detectar alteraciones cardiovasculares que no se manifiestan en reposo y es útil para valorar la capacidad física y el riesgo cardíaco.
+						</p>
+					</div><!---->
+				</div><!-- row servicios -->
+				
+				<div class="row">
+					<div class="col-12 text-center pt-3">
+						<a href="contacto" class="btn custom-btn2">Solicitar un servicio</a>
+					</div>
+				</div>
+			</div>
+		</section>
 
           
           
