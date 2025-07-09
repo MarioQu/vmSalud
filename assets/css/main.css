@@ -174,6 +174,24 @@ a{
 
 
 /* ****************************** 
+        Carrusel Home
+****************************** */
+#CarHome{
+    height: 550px;
+}
+#CarHome .carousel-item{
+    background-image: url("../images/banner-home.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#CarHome .captions{
+    width: 45%; 
+    margin-left: 200px;
+}
+
+
+/* ****************************** 
             Pilares 
 ****************************** */
 .card.pilares{
@@ -189,7 +207,10 @@ a{
         Nuestros servicios 
 ****************************** */
 #nuestros_servicios{
-    background-color: var(--green1);
+    background-image: url("../images/back1.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #nuestros_servicios .tit-serv{
     height: 50px;
@@ -200,7 +221,10 @@ a{
         Análisis clínicos 
 ****************************** */
 #analisis_clinicos{
-    background-color: var(--green2);
+    background-image: url("../images/back2.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -244,6 +268,29 @@ a{
     margin-left: 0;
     bottom: -65px;
     padding: 0;
+}
+
+.back-contacto{
+    background-image: url("../images/back-contacto.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.col-form{
+    background-color: var(--green6);
+    margin-top: -200px;
+}
+.col-form .form-control,
+.col-form select{
+    border-radius: 0;
+    background-color: #BDE1E3;
+    border: none;
+    border-bottom: 1px solid #D2D2D2;
+    box-shadow: none !important;
+}
+textarea{
+    resize: none;
 }
 
 
@@ -300,4 +347,87 @@ footer .copyright{
     content: " | ";
     margin: 0 20px;
     color: var(--white);
+}
+
+
+@media(max-width: 767px){
+    .navbar-brand img{
+        width: 60% !important;
+    }
+    .navbar-nav li a:hover{
+        box-shadow: none !important;
+        background-color: var(--green3);
+        color: var(--green1);
+    }
+    .offcanvas.offcanvas-end {
+        top: 0;
+        right: 0;
+        width: 70%;
+        border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);
+        transform: translateX(100%);
+    }
+    .navbar-nav{
+        width: 100%;
+    }
+    .offcanvas .d-flex{
+        height: auto !important;
+    }
+    .navbar-toggler {
+        padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+        font-size: var(--bs-navbar-toggler-font-size);
+        line-height: 1;
+        color: var(--bs-navbar-color);
+        background-color: var(--green1);
+        border:1px solid var(--green1);
+        border-radius: 0;
+        box-shadow: none !important;
+        transition: var(--bs-navbar-toggler-transition);
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        background-image: url("../images/menu.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+    .navbar-brand{
+        width: 70%;
+    }
+    .f-size45{
+        font-size: 30px;
+    }
+    .f-size80{
+        font-size: 50px;
+    }
+    
+    #CarHome{
+        height: 500px;
+    }
+    #CarHome .captions{
+        width: 100%; 
+        margin-left: 0;
+        padding: 20px;
+        text-align: center !important;
+    }
+    
+    #nuestros_servicios .tit-serv{
+        height: auto;
+    }
+    
+    #CarBeneficios .carousel-item{
+        height: auto;
+    }
+    #CarBeneficios button.carousel-control-prev {
+        left: -10px;
+    }
+    #CarBeneficios button.carousel-control-next {
+        right: -10px;
+    }
+    
+    #CarBeneficios .carousel-control-next, .carousel-control-prev {
+        bottom: 485px;
+    }
 }
