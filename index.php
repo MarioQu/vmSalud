@@ -1,94 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>VM Salud - Laboratorio</title>
-		<!-- Open Graph data -->
-		<meta property="og:title" content="VM Salud - Laboratorio">
-        <meta property="og:type" content="article">
-        <meta property="og:url" content=" https://vmsalud.neuronadigital.tech/">
-        <meta property="og:image" content="https://vmsalud.neuronadigital.tech/assets/images/vm-salud.png">
-        <meta property="og:description" content="Estamos comprometidos con las personas y con su salud, por ello mantenemos las mejores medidas de calidad en nuestros servicios.">
-		<link rel="icon" href="assets/images/favicon.png">
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/css/aos.css">
-		<link rel="stylesheet" href="assets/css/main.css">
+        <?php include("layout/head.php"); ?>
     </head>
     
     
-    <body data-bs-spy="scroll" data-bs-target=".navbar-nav" data-offset="50" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary" tabindex="0" style="height: auto; overflow-y: scroll;">
+    <body data-bs-spy="scroll" data-bs-target="#navId" tabindex="0">
         <!-- Navbar -->  
-		<div class="container-fluid top-navbar py-2">
-			<div class="container-lg">
-				<div class="row">
-					<div class="co-12 col-sm-12 col-md-12 col-lg-6 text-center text-lg-start">
-						<span class="f-white f-size14">Bienvenido a VM Salud Laboratorios</span>
-					</div>
-					<div class="col-12 col-sm-12 col-md-12 col-lg-6">
-						<ul class="m-0 p-0 d-flex align-items-center justify-content-around d-none d-lg-flex">
-							<li>
-								<a href="tel:5553122838" target="_blank" class="f-size12">
-									<img src="assets/images/phone.png" alt="">52 (55) 5312 2838
-								</a>
-							</li>
-							<li>
-								<a href="htts://wa.me/5562961840" target="_blank" class="f-size12">
-									<img src="assets/images/whatsapp.png" alt="">+52 (55) 6296 1840
-								</a>
-							</li>
-							<li>
-								<a href="mailto:rvillegas@vmslabs.com.mx" target="_blank" class="f-size12">
-									<img src="assets/images/email.png" alt="">rvillegas@vmslabs.com.mx
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		
-		<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" id="navbar-example2">
-			<div class="container-lg py-0 h-100" style="position: relative;">
-				<a class="navbar-brand" href="#">
-					<img src="assets/images/vm-salud.png" alt="VM Salud" class="img-fluid w-25 w-sm-25 w-md-25 w-lg-25">
-				</a>
-				
-				<button class="navbar-toggler float-right" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				
-				<div class="offcanvas offcanvas-end" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="height: 100% !important;">
-					<div class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row justify-content-end h-100" role="search">
-						<div class="d-lg-none px-3 pt-3 pb-5 text-center">
-							<img src="assets/images/vm-salud.png" alt="VM Salud" class="img-fluid w-75">
-						</div>
-						<ul class="navbar-nav">
-							<li class="nav-item">
-								<a class="nav-link px-3" href="index">Inicio</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link px-3" href="#scrollspyHeading2">¿Quiénes somos?</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link px-3" href="#scrollspyHeading3">Sobre nosotros</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link px-3" href="#">Nuestros servicios</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link px-3" href="contactanos">Contáctanos</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</nav>
+		<?php include("layout/navbar.php"); ?>
 
 		
 		<!-- Carrusel -->
-        <section class="container-fluid p-0" id="scrollspyHeading1">
+        <section class="container-fluid p-0" id="inicio">
 			<div id="CarHome" class="carousel slide">
 				<div class="carousel-inner h-100">
 					<div class="carousel-item active h-100">
@@ -151,7 +74,7 @@
 		
 		
 		<!-- Quienes somos -->
-		<section class="container-fluid mt-5" id="scrollspyHeading2">
+		<section class="container-fluid mt-5" id="quienes-somos">
 			<div class="container-lg">
 				<div class="row d-flex align-items-center">
 					<div class="col-lg-6 text-center">
@@ -174,7 +97,7 @@
 		
 		
 		<!-- Misión y Visión -->
-		<section class="container-fluid my-5" id="">
+		<section class="container-fluid my-5" id="sobre-nosotros">
 			<div class="container-lg">
 				<div class="row">
 					<div class="col-lg-8">
@@ -268,7 +191,7 @@
 		
 		
 		<!-- Nuestros servicios -->
-		<section class="container-fluid mt-5 py-5" id="nuestros_servicios">
+		<section class="container-fluid mt-5 py-5" id="nuestros-servicios">
 			<div class="container-lg">
 				<h2 class="text-center f-size80 f-white titles1 tit-backline1" data-aos="zoom-in">Nuestros servicios</h2>
 				
@@ -649,99 +572,7 @@
           
 		<!-- Footer -->
 		<footer class="container-fluid">
-			<div class="container-lg">
-				<div class="row py-5">
-					<div class="col-lg-3 text-center text-sm-center text-md-start text-lg-start ">
-						<img src="assets/images/vm-salud.png" class="img-fluid w-75" alt="">
-					</div>
-					<div class="col-lg-3 text-center text-sm-center text-md-start text-lg-start pt-3 pt-sm-3 pt-md-0 pt-lg-0">
-						<h5 class="f-white titles1 f-size16 mb-2 mb-sm-2 mb-md-4 mb-lg-4">VM Salud Laboratorio</h5>
-						
-						<ul class="list-footer p-0 m-0">
-							<li>
-								<a href="">¿Quiénes Somos?</a>
-							</li>
-							<li>
-								<a href="">Sobre nosotros</a>
-							</li>
-							<li>
-								<a href="">Nuestros servicios</a>
-							</li>
-							<li>
-								<a href="">Contáctanos</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-lg-3 text-center text-sm-center text-md-start text-lg-start pt-3 pt-sm-3 pt-md-0 pt-lg-0">
-						<h5 class="f-white titles1 f-size16 mb-2 mb-sm-2 mb-md-4 mb-lg-4">Contacto</h5>
-						
-						<ul class="list-footer p-0 m-0">
-							<li class="mb-2">
-								<a href="tel:5553122838" target="_blank">
-									<img src="assets/images/phone.png" alt=""> 52 (55) 5312 2838
-								</a>
-							</li>
-							<li class="mb-2">
-								<a href="https://wa.me/5562961840" target="_blank">
-									<img src="assets/images/whatsapp.png" alt=""> +52 (55) 6296 1840
-								</a>
-							</li>
-							<li>
-								<a href="mailto:rvillegas@vmslabs.com.mx" target="_blank">
-									<img src="assets/images/email.png" alt=""> rvillegas@vmslabs.com.mx
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-lg-3 text-center text-sm-center text-md-start text-lg-start pt-3 pt-sm-3 pt-md-0 pt-lg-0">
-						<h5 class="f-white titles1 f-size16 mb-2 mb-sm-2 mb-md-4 mb-lg-4">Síguenos</h5>
-						
-						<ul class="list-social d-flex align-items-center justify-content-center p-0 m-0">
-							<li class="me-2">
-								<a href="">
-									<img src="assets/images/linkedin.png" alt="">
-								</a>
-							</li>
-							<li class="me-2">
-								<a href="">
-									<img src="assets/images/facebook.png" alt="">
-								</a>
-							</li>
-							<li class="me-2">
-								<a href="">
-									<img src="assets/images/instagram.png" alt="">
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<img src="assets/images/youtube.png" alt="">
-								</a>
-							</li>	
-						</ul>
-					</div>
-				</div>
-				
-				
-				
-			</div>
-			
-			<div class="row copyright px-5 py-3">
-				<div class="col-lg-6 text-center text-sm-center text-md-start text-lg-start">
-					<span class="f-white f-size14">
-						&copy;Todos los derechos reservados VM Salud Laboratorios
-					</span>
-				</div>
-				<div class="col-lg-6">
-					<ul class="list-legales d-flex p-0 m-0">
-						<li>
-							<a href="#">Términos y condiciones</a>
-						</li>
-						<li>
-							<a href="#">Aviso de privacidad</a>
-						</li>
-					</ul>
-				</div>
-			</div>
+			<?php include("layout/footer.php") ?>
 		</footer>
           
        
