@@ -24,7 +24,7 @@
 									Estamos comprometidos con las personas y con su salud, por ello mantenemos las mejores medidas de calidad en nuestros servicios.
 								</p>
 								<p class="mt-5" data-aos="fade-up">
-									<a href="contacto" class="btn custom-btn">Agendar una cita</a>
+									<a href="contactanos" class="btn custom-btn">Agendar una cita</a>
 								</p>
 							</div>
 						</div>
@@ -39,7 +39,7 @@
 									Estamos comprometidos con las personas y con su salud, por ello mantenemos las mejores medidas de calidad en nuestros servicios.
 								</p>
 								<p class="mt-5" data-aos="fade-up">
-									<a href="contacto" class="btn custom-btn">Agendar una cita</a>
+									<a href="contactanos" class="btn custom-btn">Agendar una cita</a>
 								</p>
 							</div>
 						</div>
@@ -54,7 +54,7 @@
 									Estamos comprometidos con las personas y con su salud, por ello mantenemos las mejores medidas de calidad en nuestros servicios.
 								</p>
 								<p class="mt-5" data-aos="fade-up">
-									<a href="contacto" class="btn custom-btn">Agendar una cita</a>
+									<a href="contactanos" class="btn custom-btn">Agendar una cita</a>
 								</p>
 							</div>
 						</div>
@@ -183,7 +183,7 @@
 					</div>
 					
 					<div class="col-12 text-center pt-5">
-						<a href="contacto" class="btn custom-btn">Agendar una cita</a>
+						<a href="contactanos" class="btn custom-btn">Agendar una cita</a>
 					</div>
 				</div>
 			</div>
@@ -293,7 +293,7 @@
 				
 				<div class="row">
 					<div class="col-12 text-center pt-3">
-						<a href="contacto" class="btn custom-btn2">Solicitar un servicio</a>
+						<a href="contactanos" class="btn custom-btn2">Solicitar un servicio</a>
 					</div>
 				</div>
 			</div>
@@ -377,7 +377,7 @@
 				
 				<div class="row">
 					<div class="col-12 text-center pt-3">
-						<a href="contacto" class="btn custom-btn2">Solicitar un servicio</a>
+						<a href="contactanos" class="btn custom-btn2">Solicitar un servicio</a>
 					</div>
 				</div>
 			</div>
@@ -423,7 +423,7 @@
 												</ul>
 											
 												<p class="mt-5 text-center text-sm-center text-md-start text-lg-start">
-													<a href="contacto" class="btn custom-btn">Agendar una cita</a>
+													<a href="contactanos" class="btn custom-btn">Agendar una cita</a>
 												</p>
 											</div>
 										</div>
@@ -442,7 +442,7 @@
 												</p>
 											
 												<p class="mt-5 text-center text-sm-center text-md-start text-lg-start">
-													<a href="contacto" class="btn custom-btn">Agendar una cita</a>
+													<a href="contactanos" class="btn custom-btn">Agendar una cita</a>
 												</p>
 											</div>
 											<div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center h-100">
@@ -473,7 +473,7 @@
 												</p>
 											
 												<p class="mt-5 text-center text-sm-center text-md-start text-lg-start">
-													<a href="contacto" class="btn custom-btn">Agendar una cita</a>
+													<a href="contactanos" class="btn custom-btn">Agendar una cita</a>
 												</p>
 											</div>											
 										</div>
@@ -499,7 +499,7 @@
 												</ul>
 											
 												<p class="mt-5 text-center text-sm-center text-md-start text-lg-start">
-													<a href="contacto" class="btn custom-btn">Agendar una cita</a>
+													<a href="contactanos" class="btn custom-btn">Agendar una cita</a>
 												</p>
 											</div>	
 											<div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center h-100">
