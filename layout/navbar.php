@@ -12,13 +12,13 @@
                         </a>
                     </li>
                     <li>
-                        <a href="htts://wa.me/5562961840" target="_blank" class="f-size12">
-                            <img src="assets/images/whatsapp.png" alt="">+52 (55) 6296 1840
+                        <a href="htts://wa.me/5564298425" target="_blank" class="f-size12">
+                            <img src="assets/images/whatsapp.png" alt="">+52 (55) 6429 8425
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:rvillegas@vmslabs.com.mx" target="_blank" class="f-size12">
-                            <img src="assets/images/email.png" alt="">rvillegas@vmslabs.com.mx
+                        <a href="mailto:contacto@vmsalud.com" target="_blank" class="f-size12">
+                            <img src="assets/images/email.png" alt="">contacto@vmsalud.com
                         </a>
                     </li>
                 </ul>

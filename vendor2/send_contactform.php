@@ -3,7 +3,15 @@
     use PHPMailer\PHPMailer\SMTP;
     use PHPMailer\PHPMailer\Exception;
     
-    require 'src/autoload.php'; 
+    require __DIR__ .'/vendor/autoload.php';
+    
+    
+    
+    // require 'vendor/phpmailer/phpmailer/src/Exception.php';
+    // require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
+    require "vendor/phpmailer/phpmailer/src/SMTP.php";
+    
+    
 
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {                                  
