@@ -3,8 +3,16 @@
     use PHPMailer\PHPMailer\SMTP;
     use PHPMailer\PHPMailer\Exception;
     
-    require 'src/autoload.php'; 
-
+    require_once 'vendor/autoload.php';
+        
+    // require 'vendor/phpmailer/phpmailer/src/Exception.php';
+    // require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
+    // require "vendor/phpmailer/phpmailer/src/SMTP.php";
+    
+    error_reporting(E_ALL);
+    ini_set("display_errors", 1);
+    include("file_with_errors.php");
+    
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {                                  
         $fullname               = $_POST["nombre"]." ".$_POST["apaterno"]." ".$_POST["amaterno"];  
@@ -14,8 +22,7 @@
         $comentarios            = $_POST["comentarios"];  
         $asunto                 = "VM Salud - Contact Form";            
 
-        
-        
+          
         $mail = new PHPMailer(true);                         
         try {
             $mail->setFrom("vmsalud@neuronadigital.tech", "VM Salud - Formulario de Contacto"); 
@@ -77,14 +84,14 @@
             // $mail->Host = 'correo.vmsalud.com';
             $mail->Host = 'smtp.hostinger.com';                    
             $mail->SMTPAuth = true;    
-            $mail->SMTPDebug = SMTP::DEBUG_SERVER;                          
+            $mail->SMTPDebug = 1;                          
             // $mail->Username = "formularios@vmsalud.com";                  
             // $mail->Password = "tn&DrG2Si?D%pD7h";
             // $mail->Username = "inteliseg-forms@neuronadigital.tech";                  
             // $mail->Password = "6%65&78hYtgFCasxs323/%(";
             $mail->Username = "vmsalud@neuronadigital.tech";                  
             $mail->Password = "Pg78^7%trF43$%6cW?";
-            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;                
+            $mail->SMTPSecure = 'ssl';                
             $mail->Port = 465;  
             // $mail->CharSet = 'UTF-8';    
             $mail->send();                                           
