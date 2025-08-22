@@ -10,10 +10,13 @@ $(document).ready(function() {
             type: 'POST',
             url: 'vendor/send_contactform.php',
             data: datosFormulario,
-            success: function(){
-                window.open("gracias", "_self");               
+            success: function(respuesta){
+                console.log("Respuesta del servidor:");
+                console.log(respuesta); // Aquí deberías ver el log completo de PHPMailer
+                // window.open("gracias", "_self");               
             },
-            error: function() {
+            error: function(xhr, status, error) {
+                console.error("Error en la petición AJAX:", error);
                 $('#resultado').html('Error al procesar el formulario.');
             }
         });

@@ -33,7 +33,7 @@
         
           
 		<!-- Footer -->
-		<footer class="container-fluid">
+		<footer class="container-fluid fixed-bottom">
 			<?php include("layout/footer.php") ?>
 		</footer>
           
