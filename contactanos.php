@@ -29,24 +29,24 @@
 						<form id="ContactForm">
 							<div class="row">
 								<div class="col-12 col-sm-12 col-md-4 col-lg-4 mb-5">
-								  <input type="text" class="form-control" placeholder="Nombre" id="nombre" name="nombre">
+								  <input type="text" class="form-control" placeholder="Nombre" id="nombre" name="nombre" required>
 								</div>
 								<div class="col-12 col-sm-12 col-md-4 col-lg-4 mb-5">
-								  <input type="text" class="form-control" placeholder="Apellido Paterno" id="apaterno" name="apaterno">
+								  <input type="text" class="form-control" placeholder="Apellido Paterno" id="apaterno" name="apaterno" required>
 								</div>
 								<div class="col-12 col-sm-12 col-md-4 col-lg-4 mb-5">
-									<input type="text" class="form-control" placeholder="Apellido Materno" id="amaterno" name="amaterno">
+									<input type="text" class="form-control" placeholder="Apellido Materno" id="amaterno" name="amaterno" required>
 								  </div>
 							  </div>
 							  <div class="row">
 								<div class="col-12 col-sm-12 col-md-4 col-lg-4 mb-5">
-								  <input type="text" class="form-control" placeholder="Correo Electrónico" id="email" name="email">
+								  <input type="text" class="form-control" placeholder="Correo Electrónico" id="email" name="email" required>
 								</div>
 								<div class="col-12 col-sm-12 col-md-4 col-lg-4 mb-5">
-								  <input type="text" class="form-control" placeholder="Teléfono" id="telefono" name="telefono">
+								  <input type="text" class="form-control" placeholder="Teléfono" id="telefono" name="telefono" required>
 								</div>
 								<div class="col-12 col-sm-12 col-md-4 col-lg-4 mb-5">
-									<select class="form-select" id="tipo_servicio" name="tipo_servicio">
+									<select class="form-select" id="tipo_servicio" name="tipo_servicio" required>
 										<option value="0" selected>Tipo de servicio o análisis</option>
 										<option value="Audiometría">Audiometría</option>
 										<option value="Electrocardiograma">Electrocardiograma estático y dinámico</option>
@@ -71,7 +71,7 @@
 							  </div>
 							  <div class="row">
 								<div class="col-12 col-sm-12 col-md-4 col-lg-4 mb-5">								  
-									<textarea id="comentarios" name="comentarios" class="form-control" placeholder="Comentarios adicionales"></textarea>
+									<textarea id="comentarios" name="comentarios" class="form-control" placeholder="Comentarios adicionales" required></textarea>
 								</div>
 								
 								
