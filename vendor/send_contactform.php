@@ -33,8 +33,9 @@
             
             
             $mail->setFrom("forms@vmsalud.com", "VM Salud - Formulario de Contacto"); 
-            $mail->addAddress("contacto@vmsalud.com", "Contact Form");
-            $mail->addBCC("marioalberto.7731@gmail.com", "Contact Form");
+            $mail->addAddress("marioalberto.7731@gmail.com", "Contact Form");
+            // $mail->addAddress("contacto@vmsalud.com", "Contact Form");
+            // $mail->addBCC("marioalberto.7731@gmail.com", "Contact Form");
 
             $mail->Subject = 'VM Salud | Formulario de Contacto';
             $mail->Body = "<table border='0' align='center' width='500' style='border-collapse: collapse; border: 3px solid #0C4B4F; background-color: #fff; color: #247F84; font-family: sans-serif; padding-left: 50px; padding-top: 100px; padding-right: 50px; padding-bottom: 100px;'>                                                    

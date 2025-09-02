@@ -80,7 +80,7 @@
 									<div class="col-12 col-sm-12 col-md-4 col-lg-4">
 										<button class="btn custom-btn" id="btn-sendform">
 											Enviar información
-											<div class="spinner-border spinner-border-sm d-none" role="status">
+											<div class="spinner-border spinner-border-sm d-none spinnerEnvio" role="status">
   												<span class="visually-hidden">Loading...</span>
 											</div>
 										</button>
